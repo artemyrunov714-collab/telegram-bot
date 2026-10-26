@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 # --- НАСТРОЙКИ ---
 # Токен и ID берутся из переменных окружения (Secrets)
-BOT_TOKEN = os.environ.get("8678523265:AAFES4IC_dwhYk5WDabofCEykmx-UIshgfU")
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 DEST_CHAT_ID = os.environ.get("1003929981277")
 # -----------------
 
